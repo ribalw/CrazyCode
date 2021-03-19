@@ -1,0 +1,393 @@
+/*Full body */
+
+html,body{
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-position: relative;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-family: 'Montserrat' , sans-serif;
+	color: white;
+	overflow-x: unset;
+}
+
+
+
+
+/*Full body Finished*/
+
+
+
+
+
+
+/* Navbar styling*/
+.navbar {
+	width: 100%;
+	background-color: rgba(63, 1, 63, 0.822);
+	color: white;
+	
+  }
+.container-fluid{
+	overflow: hidden;
+	min-height: 100%;
+}
+
+.navbar-brand{
+	color:whitesmoke; 
+	font-weight : bold;
+	padding-left: 1.0em;
+	padding-bottom:20px;
+	font-size: 30px ;
+	left: 5px;
+
+}
+.navbar a:hover, .navbar-brand a:focus{
+	color: rgba(16, 190, 16, 0.89);
+	background: transparent;
+		
+}
+#logo{
+	position: absolute;
+	margin-left: 86px;
+	width: 35px;
+	top: 05px;
+
+}
+.navbar-default{
+	padding-top: 5px;
+	border: none;
+	border-radius: 0;
+	background: transparent;
+	font-weight: 20px;
+
+}
+.navbar-nav
+{
+	color: white; ;	
+}
+
+.navbar-collapse li a
+{
+color:whitesmoke;
+padding-right: 2.8em;
+}
+
+
+.navbar-nav  .active ,.n .active
+{
+	border-top: 3px solid rgba(16, 190, 16, 0.89);
+	border-bottom: 3px solid rgba(16, 190, 16, 0.89);
+    margin-top: -3px;
+    color: rgba(16, 190, 16, 0.89)D71821 !important;
+}
+
+ .navbar-nav .nav-link:hover
+{
+    transition: .2s;
+    margin-top: -3px;
+    border-top: 3px solid rgba(16, 190, 16, 0.89);
+	color:rgba(16, 190, 16, 0.89) !important;  
+	background: transparent; 
+}
+
+
+/* Navbar Styling finished */
+
+/*--HOME PAGE-- */
+
+
+/*Styling for sliding imaages in banner*/
+@keyframes sliding{
+
+0%{
+	left: 0;
+}
+20%{
+	left: 0;
+}
+25%{
+	left: -100%;
+}
+45%{
+	left: -100%;
+}
+50%{
+	left: -200%;
+}
+70%{
+	left: -200%;
+}
+75%{
+	left: -300%;
+}
+85%{
+	left: -300%;
+}
+95%{
+	left: -400%;
+}
+100%{
+	left: -400%;
+}
+
+}
+
+#slider{
+	overflow: hidden;
+
+}
+
+#slider figure img {
+	width : 20%;
+	float: left;
+	background-position: center;
+	background-size: auto;
+	opacity: 0.7px;
+	border: 2px solid rgb(47, 207, 47);
+	padding: 6px;
+	background-color: rgba(63, 1, 63, 0.822);
+	border-radius: 20px;
+}
+
+#slider figure{
+	position: relative;
+	width: 500%;
+	text-align: left;
+	font-size: 0;
+	margin: 0;
+	left: 0;
+	animation : 25s sliding infinite;
+}
+/*Slider finished */
+
+
+
+/*Banner */
+.img-container{
+	padding-top: 40px;
+	height: 50px;
+	width: 750px;
+	background-position: center;
+	background-size: auto;
+	position:absolute;
+	background-repeat: no-repeat;		
+}
+.banner{
+	padding-top: 5px;
+	padding-left: 30px;
+}
+
+/*Banner finsihed */
+
+
+
+
+/* Button styling*/
+#rules
+{
+	position : relative;
+	right: 100px;
+	top: 60px;
+	left: 840px;
+	width: 400px;
+	height: 500px;
+	border: 2px solid rgb(47, 207, 47);
+	padding: 6px;
+	background-color: rgba(63, 1, 63, 0.822);
+	border-radius: 20px;
+
+}
+
+
+.text-rules{
+	padding-top: 30px;
+	color: rgb(47, 207, 47);
+	font-size: 20px;
+	
+}
+
+/*Text Finished*/
+
+
+
+/* footer styling*/
+footer, #id {
+	
+	width :100%;
+	height: 100px;
+	background-color: rgba(63, 1, 63, 0.822);
+	
+	position: fixed;
+	right: 1px;
+	top: 87%;
+
+}
+.footer-left {
+
+
+	padding-top: 30px;
+
+}
+.footer-left img{
+
+	width: 30px;
+
+}
+
+.footer-mid{
+	padding-top: 40px;
+	
+}
+.contact-mailing > a:hover{
+	color: black;
+}
+
+.contact-mailing a i
+{
+	
+	width: 50px;
+	color: rgb(47, 207, 47);
+	padding-top: 35px;
+	font-size: 20px;
+	float: right;
+	
+}
+/*footer finished */
+
+/* --HOME PAGE FINISHED-- */
+
+
+/* --SIGNIN PAGE-- */
+.registration 
+{
+	padding-top: 30px;
+	padding-left: 80px !important;
+
+}
+.login-form
+{
+	margin-top: 30px;
+	left:10px;
+}
+form
+{
+	font-weight: bold;
+	padding-top: 30px;
+	padding-bottom: 70px;
+}
+.btn
+{
+	background-color:rgb(8, 9, 10);
+	color:white;	
+}		
+.btn:hover
+{
+	background:rgb(47, 207, 47);
+	color: black;
+	font-weight: bold;
+
+}
+label,h2{
+	color: black;
+	font-weight: bold;
+
+}
+
+/*SIGNIN PAGE FINISHED*/
+
+/* Ranking table Styling*/
+
+.container-table{
+	padding-top: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.table{
+	background-color: black;
+	border: none;
+	width: 100%;
+	height:500px;
+	table-layout: fixed;
+	background-image: url(Images/BG/pic4.jpg);
+	
+	
+}
+.table thead {
+	
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+	
+	
+	
+}
+.table tbody tr td{
+	padding:20px;
+	border: 1px solid black;
+	border-left: none;
+	border-right: none;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+
+}
+/* RANKING TABLE FINISHED*/
+
+/* GAME SECTION*/
+
+	.gamepage{
+
+		padding-left: 200px;
+		background-repeat: no-repeat;
+
+	}
+	canvas {
+		
+		width: 750px;
+		height: 600px;
+		background-color: rgba(154, 11, 173, 0.658);
+	}
+
+	#gameButton{	
+		left: 400px;
+		float: center;
+		height:10px;
+		width: 750px;
+		
+		font-size: 25px;
+		text-align: center;
+		color: black;
+		padding-bottom:300px ;
+		
+}
+.gButton{
+
+	width: 181px;
+	border: 2px solid rgba(154, 11, 173, 0.658);
+		background-color: rgb(47, 207, 47);
+}
+/*GAME SECTION FINSIHED */
+
+#loginMessage{
+	color:black;
+	font-weight: bold;
+	padding-top: 70px;
+	padding-left: 300px;
+
+	
+}
+#loginMsg{
+	color:red;
+	font-weight: bold;
+	padding-bottom: 1000px;
+	padding-left: 100px;
+	bottom: 100px;
+	
+}
